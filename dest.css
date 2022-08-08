@@ -1,0 +1,102 @@
+/*Buat Navigation Bar */
+.navbar{
+  background-color: #838060;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon{
+  background-image: url("assets/navbar_white.jpg");
+  <!-- background-color: white; -->
+}
+
+.dropdown-menu{
+  background-color: #a9947b;
+}
+
+.judul{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* Buat Judul dan Horizontal Line */
+h1{
+  margin-top: 70px;
+  text-align: center;
+  font-family: "Garamond";
+  font-weight: bolder;
+}
+
+hr{
+  border: 5px solid #744F25;
+  border-radius: 3px;
+  width: 70%;
+  text-align: center;
+  background-color: #744F25;
+  opacity: 100%;
+  margin: auto;
+}
+
+.sec-img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ .lead-img, img {
+   margin: auto;
+   display: block;
+   width: 350px;
+   height: 350px;
+
+}
+
+.col{
+  width: 400px;
+  height: 400px;
+}
+
+
+.kalimat{
+ margin: 10px 10px 10px 10px;
+ border: 5px;
+ /*background-color: grey; */
+}
+
+p {
+ padding: 15px;
+ text-align: justify;
+}
+
+.galeri-foto{
+ background-color:#363126;
+}
+
+.galeri-foto .container h1{
+ color: white;
+}
+
+/* For Small devices */
+@media only screen and (max-width: 576px){
+   img, .lead-img{
+     display: block;
+     margin: auto;
+     width: 300px;
+     height: 300px;
+
+   }
+
+   .col{
+     width: 300px;
+     height: 300px;
+     margin-bottom:10px;
+   }
+ }
+
+ address{
+   color: white;
+   background-color: #1c1d22;
+   padding: 20px;
+   margin-bottom: 0px;
+ }
